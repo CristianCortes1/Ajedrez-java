@@ -136,6 +136,7 @@ public final class Controler implements ActionListener {
     }
 
     //eventos
+    @SuppressWarnings("unused")
     public void pasarVentana(ActionEvent e) {
         if (e.getSource().equals(ventanaInicial.getButtonPlay())) {
             ventanaJuego.setVisible(true);

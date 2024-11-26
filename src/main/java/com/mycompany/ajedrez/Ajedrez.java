@@ -17,6 +17,7 @@ public class Ajedrez {
     private static VentanaJuego ventanaJuego;
     private static VentanaGanador ventanaGanador;
     private static Logic logica;
+    @SuppressWarnings("unused")
     private static Controler controlador;
 
     public static void main(String[] args) {

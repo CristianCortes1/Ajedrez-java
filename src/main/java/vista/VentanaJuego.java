@@ -140,6 +140,7 @@ public class VentanaJuego extends JFrame {
     }
     private JButton btnReiniciar;
 
+    @SuppressWarnings("unused")
     public void botonesPanelIzquierdo() {
         // Inicializa los botones y el panel de botones
         JButton salir;
@@ -166,6 +167,7 @@ public class VentanaJuego extends JFrame {
         getPanelIzquierdo().add(salir);
     }
 
+    @SuppressWarnings("unused")
     public void reglas() {
         setReglas(new JFrame("Reglas"));
         getReglas().setSize(1285, 661);
@@ -323,7 +325,7 @@ public class VentanaJuego extends JFrame {
         tempFrame.setVisible(true);
 
         // Crear un temporizador para cerrar el JFrame después de la duración especificada
-        Timer timer = new Timer(duracion, (ActionEvent e) -> {
+        Timer timer = new Timer(duracion, (@SuppressWarnings("unused") ActionEvent e) -> {
             tempFrame.dispose(); // Cerrar el JFrame
         });
         timer.setRepeats(false); // El temporizador no se repite

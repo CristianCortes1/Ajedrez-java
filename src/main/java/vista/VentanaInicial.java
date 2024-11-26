@@ -40,6 +40,7 @@ public final class VentanaInicial extends JFrame {
     private JPanel backgroundPanel;
     private JPanel rulesPanel;
 
+    @SuppressWarnings("unused")
     public VentanaInicial() {
         initComponents();
         btnExit.addActionListener((e) -> {
@@ -48,6 +49,7 @@ public final class VentanaInicial extends JFrame {
         setIcono();
     }
 
+    @SuppressWarnings("unused")
     public void rulesPanel() {
         // Crear o reutilizar el panel de reglas
         if (rulesPanel == null) {
