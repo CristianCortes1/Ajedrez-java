@@ -1,0 +1,12 @@
+modelo\Tablero.class
+controlador\Controler.class
+modelo\Logic.class
+vista\VentanaGanador$1.class
+vista\VentanaGanador.class
+com\mycompany\ajedrez\Ajedrez.class
+vista\VentanaJugadaPeon.class
+modelo\Casilla.class
+vista\VentanaInicial$1.class
+vista\VentanaJuego.class
+modelo\Ficha.class
+vista\VentanaInicial.class
