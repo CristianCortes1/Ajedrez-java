@@ -177,7 +177,7 @@ public final class VentanaInicial extends JFrame {
             {
                 try {
                     // Cargar la imagen de fondo
-                    backgroundImage = ImageIO.read(new File("C:\\Users\\bejar\\Documents\\NetBeansProjects\\VentanaInicial\\src\\imagenes\\Portada.png"));
+                    backgroundImage = ImageIO.read(new File("C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\imageBackground.jpg"));
                 } catch (IOException e) {
                 }
             }
