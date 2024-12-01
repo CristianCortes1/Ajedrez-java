@@ -73,7 +73,7 @@ public final class VentanaJugadaPeon extends JFrame {
             "AlfilNegro.png", "ReinaNegro.png"};
 
         // Ruta de la imagen
-        String rutaImagen = "C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\" + piezas[indicePieza];
+        String rutaImagen = "images/" + piezas[indicePieza];
 
         // Cargar y redimensionar la imagen
         BufferedImage imagen = null;
@@ -94,7 +94,7 @@ public final class VentanaJugadaPeon extends JFrame {
     private void setIcono() {
         try {
             // Ruta del archivo del ícono
-            String rutaIcono = "C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\Icono.jpg";
+            String rutaIcono = "images/Icono.jpg";
             // Cargar la imagen
             BufferedImage imagenIcono = ImageIO.read(new File(rutaIcono));
             // Redimensionar la imagen si es necesario

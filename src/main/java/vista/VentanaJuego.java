@@ -16,6 +16,8 @@ import java.awt.event.ActionEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.stream.Stream;
+
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
@@ -348,7 +350,8 @@ public class VentanaJuego extends JFrame {
         };
 
         // Ruta de la imagen
-        String rutaImagen = "C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\" + piezas[indicePieza];
+        String rutaImagen = "images/" + piezas[indicePieza];
+        System.out.println(rutaImagen);
 
         // Cargar y redimensionar la imagen
         BufferedImage imagen = null;
@@ -369,7 +372,7 @@ public class VentanaJuego extends JFrame {
     private void setIcono() {
         try {
             // Ruta del archivo del ícono
-            String rutaIcono = "C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\Icono.jpg";
+            String rutaIcono = "images/Icono.jpg";
             // Cargar la imagen
             BufferedImage imagenIcono = ImageIO.read(new File(rutaIcono));
             // Redimensionar la imagen si es necesario

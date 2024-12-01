@@ -114,7 +114,7 @@ public final class VentanaInicial extends JFrame {
     private void setIcono() {
         try {
             // Ruta del archivo del ícono
-            String rutaIcono = "C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\Icono.jpg";
+            String rutaIcono = "images/Icono.jpg";
             // Cargar la imagen
             BufferedImage imagenIcono = ImageIO.read(new File(rutaIcono));
             // Redimensionar la imagen si es necesario
@@ -177,7 +177,7 @@ public final class VentanaInicial extends JFrame {
             {
                 try {
                     // Cargar la imagen de fondo
-                    backgroundImage = ImageIO.read(new File("C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\imageBackground.jpg"));
+                    backgroundImage = ImageIO.read(new File("images/imageBackground.jpg"));
                 } catch (IOException e) {
                 }
             }

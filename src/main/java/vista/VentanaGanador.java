@@ -102,7 +102,7 @@ public class VentanaGanador extends JFrame {
             {
                 // Load the background image
                 try {
-                    backgroundImage = ImageIO.read(new File("C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\ganador.jpg"));
+                    backgroundImage = ImageIO.read(new File("images/ganador.jpg"));
                 } catch (IOException e) {
                 }
             }
@@ -115,7 +115,7 @@ public class VentanaGanador extends JFrame {
         // Load and resize the image
         BufferedImage originalImage = null;
         try {
-            originalImage = ImageIO.read(new File("C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\" + imagePath));
+            originalImage = ImageIO.read(new File("images/" + imagePath));
         } catch (IOException e) {
         }
 
@@ -140,7 +140,7 @@ public class VentanaGanador extends JFrame {
     private void setIcono() {
         try {
             // Ruta del archivo del ícono
-            String rutaIcono = "C:\\Users\\bejar\\Documents\\NetBeansProjects\\Ajedrez\\src\\main\\java\\vista\\images\\Icono.jpg";
+            String rutaIcono = "images/Icono.jpg";
             // Cargar la imagen
             BufferedImage imagenIcono = ImageIO.read(new File(rutaIcono));
             // Redimensionar la imagen si es necesario
